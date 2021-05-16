@@ -3,9 +3,10 @@ import java.util.Arrays;
 
 public class A1 {
     public static void main(String[] args) {
-		int[] array1 = new int[10];
+		int[] array1 = {2,1,4,7,9,0,5,7,3,8};
 		Arrays.sort(array1);
-		String[] array2 = new String[10];
+        System.out.println(Arrays.toString(array1));
+		String[] array2 = {"acd", "dwe", "cer","byi"};
 		int size = array2.length;
 
 		for (int i = 0; i < size - 1; i++) {
@@ -17,5 +18,6 @@ public class A1 {
 				}
 			}
 		}
+        System.out.println(Arrays.toString(array2));
 	}
 }

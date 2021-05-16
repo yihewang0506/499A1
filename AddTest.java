@@ -5,7 +5,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class AddTest {
-	private static Calculator Cal1 = null;
+	private static calculator Cal1 = null;
 
 	@BeforeClass
 	public static void setup() {

@@ -3,21 +3,23 @@ package asd.src;
 
 public class Calculate {
 
-	public double add(double a, double b){
-		return a+b;
-	}
-	public double substract(double a, double b){
-		return a - b;
-	}
-	public double mutiply(double a, double b){
-		return a * b;
-	}
-	public double divide(double a, double b){
-		if(b==0){
-			throw new IllegalArgumentException("Donot divide by 0");
-		}
-		return a+b;
+	public double add(double a, double b) {
+		return a + b;
 	}
 
+	public double substract(double a, double b) {
+		return a + b;
+	}
+
+	public double mutiply(double a, double b) {
+		return a * b;
+	}
+
+	public double divide(double a, double b) {
+		if (b == 0) {
+			throw new IllegalArgumentException("Donot divide by 0");
+		}
+		return a / b;
+	}
 	
 }

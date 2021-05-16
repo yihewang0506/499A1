@@ -1,7 +1,7 @@
 package asd.src;
 
 
-public class Calculate {
+public class calculator {
 
 	public double add(double a, double b) {
 		return a + b;
